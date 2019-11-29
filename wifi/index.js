@@ -1,7 +1,6 @@
-// var ssid = 'YOUR_SSID';
-// var password = 'YOUR_SSID_PASSWORD';
-var ssid = 'belvedersky';
-var password = '90Hunupo';
+var ssid = 'YOUR_SSID';
+var password = 'YOUR_SSID_PASSWORD';
+
 
 var wifi = require('Wifi');
 wifi.connect(ssid, {password: password}, function() {
