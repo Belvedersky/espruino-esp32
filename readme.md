@@ -1,8 +1,9 @@
 # Espruino esp32
 
 https://www.npmjs.com/package/espruino
+```
 npm install -g espruino
-
+```
 upload firmware:
 need esptool
 $ pip install esptool
