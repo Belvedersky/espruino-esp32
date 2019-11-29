@@ -1,10 +1,13 @@
 # Espruino esp32
 
 [espruino npm](https://www.npmjs.com/package/espruino)
+
 `
 npm install -g espruino
 `
+
 [esptool.py](https://github.com/espressif/esptool)
+
 `
 $ pip install esptool
 `
@@ -27,15 +30,21 @@ get port list:
 `
 $ espruino --list
 `
+
 connect: 
 `
 $ espruino -p /dev/tty.SLAB_USBtoUART -b 115200
 `
+
 upload code:
 `
 $ espruino -p /dev/tty.SLAB_USBtoUART -b 115200 -m blink/index.js
 `
+
 with save:
 `
 $ espruino -p /dev/tty.SLAB_USBtoUART -b 115200 blink/index.js -e "save()"
 `
+
+
+
