@@ -52,7 +52,6 @@ let presses = 0;
 let click = 0;
 
 setWatch(function(e) {
-  console.log(presses);
   presses+=16;
   if(presses>112){
     //console.log("reset button");
